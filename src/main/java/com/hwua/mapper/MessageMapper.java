@@ -24,4 +24,6 @@ public interface MessageMapper {
     public Long queryMsgCount(int loginid)throws Exception; //查询登录用户收到的短消息个数
 
     public Integer updateMessage(Message msg) throws Exception;//更新短消息
+
+public  void hello(){}//
 }
