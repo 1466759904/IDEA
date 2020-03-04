@@ -25,5 +25,4 @@ public interface MessageMapper {
 
     public Integer updateMessage(Message msg) throws Exception;//更新短消息
 
-public  void hello(){}//
 }
